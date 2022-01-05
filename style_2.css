@@ -1,0 +1,56 @@
+#info{
+    overflow: hidden;
+}
+.test{
+    margin-right: -15rem;
+}
+#info{
+    margin-bottom: 6rem;
+}
+.test-2{
+    margin-top: -5.5rem;
+}
+
+.bg-grayish{
+    background-color: hsl(0, 3%, 86%);
+}
+
+form{
+    background-color: hsl(257, 27%, 26%);
+    background-image: url("images/bg-shorten-desktop.svg");
+}
+
+#boost{
+    background-image: url("images/bg-boost-desktop.svg");
+}
+
+.test-3{
+    padding-top: 5rem;
+}
+
+.top_{
+    top: -3rem
+}
+
+.start_{
+    left: 2rem;
+}
+
+.test-4{
+    width: 50%;
+    margin: auto;
+}
+
+a.test-5:hover{
+    color: hsl(180, 66%, 49%);
+}
+
+@media (max-width:600px) {
+    .start_{
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .test-4{
+        width: 95%;
+    }
+}
